@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <STyle>
+        h1 {
+            color: black;
+            font-size: large;
+        }
+
+        .root {
+            width: 100%;
+            height: 100px;
+            background-color: rgba(57, 57, 240, 0.932);
+            position: sticky;
+            top: 0;
+        }
+
+        .loginbutton {
+            background-color: black;
+            color: white;
+            padding: 30px;
+            margin-top: 8px;
+            margin-left: 8px;
+            font-size: large;
+        }
+
+        .logincontent {
+            display: none;
+            position: absolute;
+            background-color: thistle;
+            min-width: 170px;
+            box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.3);
+            z-index: -1;
+        }
+
+        .login:hover .logincontent {
+            display: block;
+        }
+    </STyle>
+
+
+
+    <CEnter>
+        <h1>WELCOME</h1>
+    </CEnter>
+
+
+    <div class="root" >
+
+        <div class="login">
+            <button class="loginbutton">LOGIN</button>
+            <div class="logincontent">
+                <p>my profile</p>
+                <p>signin or signup</p>
+                <p>email</p>
+                <p>phone number</p>
+
+            </div>
+        </div>
+
+        <div class="more">
+
+            <button class="morebutton">MORE</button>
+            <DIv class="morecontent">
+                <p>notifications</p>
+                <p>coustmer care</p>
+                <p>help</p>
+                <p>contact</p>
+
+            </DIv>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
