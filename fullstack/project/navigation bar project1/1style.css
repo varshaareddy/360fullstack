@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main-bar a{
+    color: black;
+    background-color: rgb(8, 101, 194);
+    display: block;
+    height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+#main-bar a:hover{
+    background-color: lemonchiffon;
+}
+
+#main-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+#main-bar ul li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+
+
+

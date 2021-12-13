@@ -1,0 +1,70 @@
+#main-bar li:hover #submenu>li{
+    display: block;
+    top: 0;
+}
+
+#submenu>li{
+    display: none;
+    position: absolute;
+}
+
+#submenu{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-bar li:hover #sub>li{
+    display: block;
+    top: 0;
+}
+#sub>li{
+    display: none;
+    position: absolute;
+}
+#sub{
+    display: block;
+    flex-direction: column;
+}
+
+#main-bar li:hover #menu>li{
+    display: block;
+    top: 0;
+}
+#menu>li{
+    display: none;
+    position: absolute;
+}
+#menu{
+    display: flex ;
+    flex-direction: column;
+}
+
+#main-bar li:hover #items>li{
+    display: block;
+    top: 0;
+}
+#items>li{
+    display: none;
+    position: absolute;
+}
+#items{
+    display: flex;
+    flex-direction: column;
+}
+
+#submenu li:hover #clothes>li{
+    display: block;
+    margin-left: 250px;
+    margin-top: -20px;
+
+}
+#clothes>li{
+    display: none;
+    position: absolute;
+}
+#clothes{
+    display: flex;
+    flex-direction: column;
+}
+
+
