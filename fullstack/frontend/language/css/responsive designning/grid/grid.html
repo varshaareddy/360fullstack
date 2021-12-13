@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <style>
+        .container {
+            display: grid;
+            /* fixed side*/
+            /*grid-template-columns: 200px 200px 200px;*/
+            /* grid-template-rows: 200px,300px;*/
+            /* //using repeat method for height nd width instead of mentionning all sizes we use repeat*/
+
+            /* grid-template-columns: repeat(3, 200px);*/
+            /* responsive fractional unit using for full screen */
+            /* grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 200px 300px;*/
+
+            /* responsive design*/
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-rows: repeat(6, minmax(300px, 1fr));
+            grid-gap: 20px;
+
+        }
+
+        .item {
+            /* width: 200px;*/
+            /*height: 200px;*/
+            background-color: tomato;
+            border: 3px solid black;
+            color: white;
+            font-size: 30px;
+
+        }
+
+        #item-2 {
+            /*using it to change box positions from one place to other*/
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+        }
+
+
+    </style>
+
+
+
+    <div class="container">
+
+        <div class="item" id="item-1">BOX-1</div>
+        <div class="item" id="item-2">BOX-2</div>
+        <div class="item" id="item-3">BOX-3</div>
+        <div class="item" id="item-4">BOX-4</div>
+        <div class="item" id="item-5">BOX-5</div>
+        <div class="item" id="item-6">BOX-6</div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <style>
+        .container {
+            overflow: scroll;
+            border: 3px solid black;
+            width: 100%;
+            height: 540px;
+            display: flex;
+            flex-direction: row;
+            /* flex-direction: row-reverse;*/
+            /*flex-wrap: wrap;*/
+            /* justify-content: space-between;*/
+            /*justify-content: space-around;*/
+            justify-content: space-evenly;
+        }
+
+
+        #item {
+            background-color: darkorange;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 3px;
+            width: 200px;
+            height: 200px;
+            color: white;
+            font-size: 30px;
+        }
+
+        .item1 {
+            order: 1;
+        }
+
+        .item2 {
+
+            order: 2;
+        }
+
+        .item3 {
+            order: 1;
+        }
+
+        .item4 {
+            order: 1;
+        }
+    </style>
+
+
+
+    <div class="container">
+
+        <div id="item" class="item1"> SCREEN1</div>
+        <div id="item" class="item2"> SCREEN2</div>
+        <div id="item" class="item3"> SCREEN3</div>
+        <div id="item" class="item4"> SCREEN4</div>
+
+    </div>
+
+
+</body>
+
+</html>
