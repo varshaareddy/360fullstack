@@ -1,0 +1,57 @@
+/* $ variable is used to linkin the elements in place of colour*/
+/*importmeans (@import) it gives acess to linkanother file to it*/
+/* partials means file creation with underscroll so operation.css.map doesnt look into this file*/
+h2 {
+  background-color: #df1234;
+  font-size: 70px;
+}
+
+.class {
+  background-color: #df1234;
+}
+
+.root {
+  background-color: #df1234;
+}
+
+/* nesting*/
+.gp {
+  font-size: 50px;
+}
+
+.gp h1 {
+  font-size: 60px;
+}
+
+.gp h1 p {
+  font-size: 70px;
+}
+
+.gp h1 p a {
+  font-size: 200px;
+  color: yellow;
+}
+
+/*  mixing nd include for same values*/
+/* parameter for diff values we use$*/
+.id {
+  width: 200px;
+  height: 100px;
+  font-size: 40px;
+  background-color: blue;
+}
+
+.id1 {
+  width: 200px;
+  height: 250px;
+  font-size: 20px;
+  background-color: red;
+}
+
+.id2 {
+  width: 300px;
+  height: 200px;
+  font-size: 25px;
+  background-color: yellow;
+}
+/*# sourceMappingURL=operators.css.map */

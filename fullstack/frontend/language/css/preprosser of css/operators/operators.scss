@@ -1,0 +1,64 @@
+ 
+ /* $ variable is used to linkin the elements in place of colour*/
+/*importmeans (@import) it gives acess to linkanother file to it*/
+/* partials means file creation with underscroll so operation.css.map doesnt look into this file*/
+
+$co: rgb(223, 18, 52);
+
+
+
+h2{
+
+    background-color: $co;
+    font-size: 50px+20px;
+}
+
+.class{
+    background-color: $co;
+}
+
+.root{
+    background-color: $co;
+}
+
+
+  /* nesting*/
+
+.gp{
+    font-size: 50px;
+    h1{
+        font-size: 60px;
+        p{
+            font-size: 70px;
+            a{
+font-size: 200px;
+color: yellow;
+
+            }
+        }
+    }
+}
+
+ /*  mixing nd include for same values*/
+ /* parameter for diff values we use$*/
+
+ 
+@mixin mix($a,$b,$c,$d) {
+    width: $a;
+    height: $b;
+    font-size: $c;
+    background-color: $d;
+
+}
+
+
+.id{
+@include mix(200px,100px,40px,blue);
+}
+.id1{
+@include mix(200px ,250px,20px,red );
+}
+
+.id2{
+    @include mix(300px,200px,25px,yellow);
+}   
