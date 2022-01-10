@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+label{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 23px;
+    line-height: 1.2;
+}
+
+article p{
+    font-size: 25px;
+    padding: 20px;
+}
+
+
+
 .container{
     width: 100%;
     margin: auto;
@@ -37,10 +54,9 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-
-
-
-
+*{
+    box-sizing: border-box;
+}
 
 
 nav{
@@ -88,13 +104,60 @@ ul.topnav li.dropdownicon{
 
 #section-1-gradient{ 
     background: rgb(238,174,202);
-   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-   /*background: rgb(238,174,202);
-   background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
-} 
-.leftside-col{
-    margin-left: 100px;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 
+}
+
+div.box{
+    text-align: center;
+    margin: 24px;
+    border-radius: 7px;
+    padding: 36px 24px 40px 24px ;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+}
+
+div.slopeicon img{ 
+    display: block;
+    margin: auto;
+    box-shadow: -2px/*h*/ -2px/*v*/ 5px/*b*/ 2px/*s*/  rgba(0 /*sh*/,0 /*bg*/,0 /*boxcolour*/,0.15/*opacity*/),
+    2px 2px 4px 2px rgba(0,0,0,1);
+
+}
+
+
+
+
+button{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: blue;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.learnmore{
+    display: block;
+    margin: auto;
+
+}
+
+
+div.icon{
+    width: 100%;
+}
+
+
+div.leftside-col{
+    margin-left: 100px;
+}
+ 
+div.rightside-col{
+    margin-left: 15%;
 }
 
 h1.large{
@@ -103,6 +166,14 @@ h1.large{
     margin: 0;
     line-height: 70px;
 }
+
+h1.section2header{
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+
+}
+
 
 form h2{
     color: rgb(17, 16, 16);
@@ -115,11 +186,28 @@ input[type="text"]{
     width: 400px;
     min-width: 100px;
     padding: 5px;
-
+    border-radius: 7px;  
 }
 
+footer.footsy{
+    background-color: #666;
+    padding-left: 10%;
 
-
+}
+footer.footsy h1{
+    color: white;
+    font-size: 35px;
+}
+footer.footsy ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+footer.footsy ul li{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+}
 
 
 @media screen and (max-width:700px){
@@ -150,6 +238,62 @@ ul.topnav.responsive li a{
     display: block;
     text-align: left;
 }
+
+h1.section2header{
+    font-size: 50px;
+}
+
+article p{
+    font-size: 20px;
+}
+
+.col-6,
+.col-7,
+.col-5,
+.col-4{
+    width: 100%;
+    margin: 0;
+}
+
+div.mobilestack{
+    width: 50%;
+    display: block;
+
+}
+
+
+
+div.box{
+    padding: 5px;
+    display: block;
+}
+
+div.slopeicon{
+    margin: 10px;
+}
+
+div.slopeicon img{
+    width: 100%;
+}
+
+
+div.leftside-col,
+div.rightside-col{
+margin: 15px;
+
+}
+
+input[type="text"]{
+    width: 350px;
+}
+
+.videocontainer iframe{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
 
 }
 
